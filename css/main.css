@@ -1,0 +1,96 @@
+* {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+}
+/*main parts of the website*/
+body {
+    background-color: #191970;
+}
+
+header{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+}
+
+main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    color: deeppink;
+}
+
+/*de nav*/
+nav{
+    width: 50vw;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    list-style: none;
+}
+
+nav ul li{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+nav ul li a{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.Link{
+    color: #008000;
+}
+
+/*images*/
+.image{
+    height: 70%;
+    width: 30%;
+}
+
+.image2{
+    height: 875px;
+    width: 100%;
+}
+
+.overmij{
+    width: 100%;
+    height: 750px;
+}
+
+/*tekst*/
+.tekst{
+    color: #1A946F;
+    font-size: 40px;
+    position:absolute;
+}
+
+.tekst2{
+    color: #1A946F;
+    font-size: 20px;
+}
