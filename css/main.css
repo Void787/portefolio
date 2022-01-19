@@ -23,6 +23,11 @@ main{
     justify-content: center;
 }
 
+.productenMain{
+    width: 100%;
+    height: 700px;
+}
+
 footer{
     color: deeppink;
 }
@@ -94,3 +99,14 @@ nav ul li a{
     color: #1A946F;
     font-size: 20px;
 }
+
+/*de div's*/
+.container{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 0px; /*!!!!!*/
+}
+
