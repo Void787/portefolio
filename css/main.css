@@ -13,7 +13,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: violet;
+    background-color: #235aa2;
 }
 
 main{
@@ -35,6 +35,10 @@ main{
     flex-direction: row;
 }
 
+.bodyovermij{
+    background: rgb(0,32,63);
+    background: linear-gradient(110deg, rgba(0,32,63,1) 0%, rgba(0,32,63,1) 48%, rgba(173,239,209,1) 100%);
+}
 footer{
     color: deeppink;
 }
@@ -46,6 +50,7 @@ nav{
     background-color: aqua;
     display: flex;
     justify-content: space-between;
+    color: #000000;
 }
 
 nav ul{
@@ -53,7 +58,7 @@ nav ul{
     height: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: orange;
+    background-color: #789fd6;
     list-style: none;
 }
 
@@ -63,20 +68,20 @@ nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color: #99a1e1;
 }
 
 nav ul li a{
     width: 100px;
     height: 50px;
-    background-color: red;
+    background-color: #5c6092;
     text-align: center;
     text-decoration: none;
-
+    color: #ffff;
 }
 
-.Link{
-    color: #008000;
+.Link:hover{
+    color: #7CE9FE;
 }
 
 /*images*/
@@ -98,7 +103,8 @@ nav ul li a{
 }
 
 .tekst2{
-    color: #1A946F;
+    background: rgb(173,239,209);
+    background: linear-gradient(110deg, rgba(173,239,209,1) 0%, rgba(0,32,63,1) 56%, rgba(0,32,63,1) 100%);
     font-size: 20px;
 }
 
@@ -117,7 +123,7 @@ nav ul li a{
     position: absolute;
     display: flex;
     flex-direction: row;
-    left: 0px; /*!!!!!*/
+    left: 0px; 
 }
 
 .container2{
