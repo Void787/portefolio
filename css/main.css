@@ -38,6 +38,8 @@ main{
 .bodyovermij{
     background: rgb(0,32,63);
     background: linear-gradient(110deg, rgba(0,32,63,1) 0%, rgba(0,32,63,1) 48%, rgba(173,239,209,1) 100%);
+    width: 100%;
+    height: 100%;
 }
 footer{
     color: deeppink;
@@ -103,8 +105,8 @@ nav ul li a{
 }
 
 .tekst2{
-    background: rgb(173,239,209);
-    background: linear-gradient(110deg, rgba(173,239,209,1) 0%, rgba(0,32,63,1) 56%, rgba(0,32,63,1) 100%);
+    color: rgb(173,239,209);
+    color: linear-gradient(110deg, rgba(173,239,209,1) 0%, rgba(0,32,63,1) 56%, rgba(0,32,63,1) 100%);
     font-size: 20px;
 }
 
