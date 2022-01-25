@@ -28,6 +28,13 @@ main{
     height: 700px;
 }
 
+.overmij{
+    width: 100%;
+    height: 575px;
+    display: flex;
+    flex-direction: row;
+}
+
 footer{
     color: deeppink;
 }
@@ -74,18 +81,13 @@ nav ul li a{
 
 /*images*/
 .image{
-    height: 70%;
+    height: 90%;
     width: 30%;
 }
 
 .image2{
     height: 875px;
     width: 100%;
-}
-
-.overmij{
-    width: 100%;
-    height: 750px;
 }
 
 /*tekst*/
@@ -100,6 +102,14 @@ nav ul li a{
     font-size: 20px;
 }
 
+.ImageTekst{
+    display: flex;
+    flex-direction: column;
+}
+.whiteline{
+    height: 50px;
+}
+
 /*de div's*/
 .container{
     height: 50%;
@@ -110,3 +120,10 @@ nav ul li a{
     left: 0px; /*!!!!!*/
 }
 
+.container2{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
