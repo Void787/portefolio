@@ -123,10 +123,8 @@ nav ul li a{
 .container{
     height: 50%;
     width: 50%;
-    position: absolute;
     display: flex;
-    flex-direction: row;
-    left: 0px; 
+    flex-direction: column;
 }
 
 .container2{
@@ -135,6 +133,10 @@ nav ul li a{
     position: absolute;
     display: flex;
     flex-direction: row;
+}
+
+.imageseperate{
+    padding-bottom: 4%;
 }
 
 form{
@@ -146,3 +148,5 @@ form{
     background-color: white;
     padding: 10px;
 }
+
+/*https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap*/
